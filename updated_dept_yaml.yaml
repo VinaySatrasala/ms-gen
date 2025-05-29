@@ -99,8 +99,8 @@ paths:
           description: Department not found
   /department/count:
     get:
-      summary: Get all departments
-      operationId: getAllDepartments
+      summary: Get count of departments
+      operationId: getDepartmentCount
       requestBody:
         content:
           application/json:
